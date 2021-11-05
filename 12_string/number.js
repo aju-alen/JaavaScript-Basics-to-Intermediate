@@ -1,0 +1,11 @@
+let text = ' Alen';
+let result = text.length;
+console.log(result);
+console.log(text.toLowerCase());
+console.log(text.charAt(0));
+console.log(text.charAt(text.length - 1));
+console.log(text.indexOf('A'));
+console.log(text.trim());
+console.log(text.trim().toLocaleLowerCase().startsWith('alen'));
+console.log(text.includes('len'));
+console.log(text.slice(-2));
